@@ -266,28 +266,7 @@ ios/
 - **Secure Playback**: Protected audio pipeline
 - **License Management**: Automatic license renewal
 
-## 🎯 Roadmap
 
-### v2.1 (Q2 2024)
-- [ ] Spatial Audio with head tracking
-- [ ] AI-powered recommendations
-- [ ] Social features and sharing
-- [ ] Podcast support
-- [ ] Voice control integration
-
-### v2.2 (Q3 2024)
-- [ ] Desktop applications (Windows/macOS)
-- [ ] Smart home integration
-- [ ] Advanced audio analysis
-- [ ] Multi-room audio
-- [ ] Live streaming support
-
-### v3.0 (Q4 2024)
-- [ ] Complete UI/UX redesign
-- [ ] AR/VR audio experiences
-- [ ] Blockchain integration
-- [ ] Advanced AI features
-- [ ] Global expansion
 
 ## 📄 License
 
