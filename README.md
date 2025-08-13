@@ -302,8 +302,8 @@ Your feedback made this release possible! 🙏
 | **Version** | **Release Date** | **Key Features** |
 |-------------|------------------|------------------|
 | **Beta 2.5** | August 13, 2025 | Login fixes, audio optimization |
-| **Beta 2.0** | July 28, 2025 | Core streaming features |
-| **Beta 1.0** | July 1, 2025 | Basic functionality |
+| **Beta 2.0** | August 3, 2025 | Core streaming features |
+| **Beta 1.0** | June 18, 2025 | Basic functionality |
 
 ---
 
