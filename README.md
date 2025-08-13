@@ -319,7 +319,21 @@ Your feedback made this release possible! 🙏
 
 ---
 
+## 🙏 **Special Thanks**
+
+We extend our heartfelt gratitude to a few incredible community members on Discord who played a vital role in making this release possible:
+
+- **superadmin0** – Owner of DAB Music and developer OG  
+- **sherlockholmesat221b** – Support for internal testing  
+- **desidamon** – Support during Beta 2.0 testing  
+- **terminator_x.** – Continuous support for future release plans  
+
+Your dedication, feedback, and passion for DAB Music Player inspire us to keep improving every day. ❤️
+
+---
+
+
 **Made with ❤️ by the DAB Music Team**  
-*Delivering exceptional music experiences since 2025*
+*Delivering exceptional music experiences since 2023*
 
 </div>
