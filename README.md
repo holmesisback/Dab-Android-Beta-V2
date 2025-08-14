@@ -195,14 +195,14 @@ android/
 ## 🚀 **Installation & Update Guide**
 
 ### **For Existing Users:**
-1. **Download** the latest Beta 2.5 APK
+1. **Download** the latest Beta 2.7 APK
 2. **Uninstall** the previous version (to clear cache issues)
 3. **Install** the new version
 4. **Login** with your existing credentials
 5. **Enjoy** the improved experience!
 
 ### **For New Users:**
-1. **Download** DAB Music Player Beta 2.5
+1. **Download** DAB Music Player Beta 2.7
 2. **Create account** or login with existing credentials
 3. **Grant** necessary permissions
 4. **Start streaming** high-quality music!
