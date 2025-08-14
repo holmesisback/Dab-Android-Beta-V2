@@ -309,7 +309,7 @@ Your feedback made this release possible! 🙏
 
 ## 🎵 **Experience Music Like Never Before** 🎵
 
-**Download DAB Music Player Beta 2.5 today and enjoy seamless, high-quality music streaming!**
+**Download DAB Music Player Beta 2.7 today and enjoy seamless, high-quality music streaming!**
 
 
 [![Join Discord](https://img.shields.io/badge/Join-Discord-7289DA?style=for-the-badge)](https://discord.gg/dabmusic)
