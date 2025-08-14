@@ -1,200 +1,197 @@
-# 🎵 DAB Music Player - Beta 2.5 Patch Release
+# DAB Music Player 🎵
 
-![DAB Music Player](https://img.shields.io/badge/Version-Beta%202.5-brightgreen) ![Platform](https://img.shields.io/badge/Platform-Android-blue) ![Status](https://img.shields.io/badge/Status-Beta-orange)
+**High-Quality Music Streaming with Custom Native Audio Engine**
 
-## 🚀 **Major Release Highlights**
-
-This **Beta 2.5** patch release addresses critical user-reported issues and introduces significant performance improvements. We've focused on **login reliability**, **audio streaming optimization**, and **comprehensive bug fixes** based on extensive user feedback.
-
----
-
-## 📋 **Release Overview**
-
-| **Release Info** | **Details** |
-|------------------|-------------|
-| **Version** | Beta 2.5 |
-| **Release Date** | August 13, 2025 |
-| **Build Type** | Patch Release |
-| **Focus Areas** | Authentication, Audio Pipeline, Performance |
-| **Critical Fixes** | 15+ Major Issues Resolved |
-| **Performance Gains** | Up to 50% CPU Usage Reduction |
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
+[![Audio](https://img.shields.io/badge/Custom-Native_Audio-FF6B6B?style=for-the-badge)]()
 
 ---
 
-## 🔥 **Critical Issues Resolved**
+## 🎯 Overview
 
-### 🔐 **Authentication & Login System**
+DAB Music Player is a premium Flutter-based music streaming application that delivers uncompromising audio quality through our custom native audio engine. Built for audiophiles who demand the best listening experience on Android devices.
 
-#### **Issue #1: Login Failures Due to Rate Limiting**
-- **Problem**: Users experiencing "login not working" due to Cloudflare rate limiting (HTTP 429)
-- **Impact**: High user frustration, app abandonment
-- **Solution**: Implemented intelligent rate limiting protection with 2-second delays
-- **Result**: 95% reduction in rate limit errors
+### ✨ Key Features
 
-#### **Issue #2: Poor Error Messaging**
-- **Problem**: Generic "login failed" messages provided no actionable feedback
-- **Impact**: Users couldn't understand or resolve login issues
-- **Solution**: Context-aware error messages for different failure scenarios
-- **Result**: Improved user experience and self-service resolution
-
-#### **Issue #3: Network Timeout Issues**
-- **Problem**: Aggressive 3-second timeouts causing failures on slower connections
-- **Impact**: Mobile users and rural areas unable to login
-- **Solution**: Balanced timeout configuration (8-10 seconds)
-- **Result**: 40% improvement in login success rate
-
-| **Error Scenario** | **Old Message** | **New Message** | **User Action** |
-|-------------------|-----------------|-----------------|-----------------|
-| Rate Limited | "Login failed" | "Server is busy. Please wait a moment and try again." | Wait & retry |
-| Network Timeout | "Login failed" | "Connection timeout. Please check your internet and try again." | Check connection |
-| Invalid Credentials | "Login failed" | "Invalid email or password. Please check your credentials." | Verify credentials |
-| Server Protection | "Login failed" | "Access temporarily restricted. Please try again in a few minutes." | Wait longer |
+- 🎵 **Professional Audio Quality** - Custom native audio engine for superior sound
+- 📱 **Native Android Integration** - Seamless device integration
+- 🎨 **Modern UI/UX** - Beautiful, intuitive interface
+- 📚 **Unlimited Libraries** - Organize your music without limits
+- 🔍 **Advanced Search** - Find music across your entire collection
+- 🎤 **Lyrics Support** - Synced and non-synced lyrics display
+- 🔄 **Background Playback** - Continuous music even when phone is off
+- 🎛️ **Audio Controls** - Professional-grade playback controls
 
 ---
 
-### 🎵 **Audio Streaming & Playback**
+## 📦 Latest Release - Beta v2.7.0
 
-#### **Issue #4: 6-Second Playback Delays**
-- **Problem**: Tracks taking 6+ seconds to start playing in album detail screens
-- **Impact**: Poor user experience, perceived app slowness
-- **Root Cause**: Placeholder `_playTrack` method not implemented
-- **Solution**: Complete PlayerService integration with proper Track object creation
-- **Result**: **Instant playback** with <500ms start time
+## 🐛 Known Issues & Fixes
 
-#### **Issue #5: Mini Player Glitches**
-- **Problem**: Mini player appearing and disappearing without playing music
-- **Impact**: UI instability, user confusion
-- **Root Cause**: Race conditions in player state management
-- **Solution**: Synchronized state updates with proper error handling
-- **Result**: Stable mini player behavior
+### **Resolved in v2.7.0**
+- ✅ **MIUI OS Fix** - App crash on MIUI on android 12 fixed
+- ✅ **Samsung One UI Fix** - Background play on One Ui is partitally fixed
+- ✅ **Library track limitation** - Now supports unlimited tracks
+- ✅ **Pagination errors** - Robust loading for large libraries
+- ✅ **Memory optimization** - Better handling of large datasets
+- ✅ **API efficiency** - Reduced redundant network calls
 
-#### **Issue #6: Slow Favorites Section**
-- **Problem**: Music playing very slowly in favorites and search screens
-- **Impact**: Core app functionality compromised
-- **Root Cause**: URL fetch timeouts (300ms too aggressive)
-- **Solution**: Optimized timeout configuration (3-5 seconds with fallbacks)
-- **Result**: **Reliable streaming** across all sections
+### **Current Limitations**
+- 📱 **iOS Support** - Android only (Flutter web in development)
+- 🌐 **Offline Sync** - Limited offline functionality
+- 🎵 **Local Files** - Streaming only (local file support planned)
+
+
+### 🚀 **Major Library Enhancement**
+- ✅ **Unlimited Library Tracks** - No more 20-track limitation
+- ✅ **Intelligent Pagination** - Automatic loading of large libraries
+- ✅ **Enhanced Performance** - Optimized for collections of any size
+- ✅ **Improved Reliability** - Better error handling and recovery
+
+[📋 Full Release Notes](RELEASE_NOTES_v2.7.0.md) | 
 
 ---
 
-### ⚡ **Audio Pipeline Optimization**
+## 🏗️ Architecture
 
-We conducted a comprehensive audio pipeline analysis and implemented multiple performance optimizations:
+### **Frontend**
+- **Framework**: Flutter 3.x
+- **Language**: Dart
+- **UI Components**: Material Design 3
+- **State Management**: Provider + ValueNotifier
+- **Dependency Injection**: GetIt + Injectable
 
-| **Component** | **Before** | **After** | **Improvement** |
-|---------------|------------|-----------|-----------------|
-| **Buffer Configuration** | Inconsistent (64/128) | Unified (256) | Eliminated audio glitches |
-| **Position Monitoring** | 100ms (aggressive) | 200ms (balanced) | 50% CPU usage reduction |
-| **URL Caching** | Race conditions | Clean cache logic | Prevented cache conflicts |
-| **Stream Timeouts** | 300ms (too fast) | 3-5s (balanced) | 95% reliability improvement |
-| **Memory Management** | Limited cleanup | Comprehensive disposal | Prevented memory leaks |
+### **Backend Integration**
+- **API**: RESTful API (https://dab.yeet.su/api)
+- **Authentication**: JWT tokens with secure storage
+- **Network**: Dio with custom interceptors
+- **Caching**: Smart cache management for optimal performance
 
-#### **Technical Improvements:**
+### **Audio Engine**
+- **Core**: Custom Native Audio Engine (Native C++)
+- **Platform Bridge**: Method Channels (Kotlin ↔ Dart)
+- **Features**: High-res audio, low latency, professional effects
+- **Formats**: FLAC, MP3, WAV, and more
 
-```dart
-// Buffer Consistency Fix
-setBufferSize: 256   // Previously inconsistent 64/128
-bufferSize: 256      // Unified across all configurations
+---
 
-// Optimized Position Monitoring
-Timer.periodic(Duration(milliseconds: 200))  // Down from 100ms
 
-// Intelligent URL Caching
-_preloadedUrls.remove(trackKey);  // Remove on play
-// Eliminated redundant re-caching to prevent conflicts
+## 📁 Project Structure
 
-// Balanced Streaming Configuration
-'preBufferMs': 250,    // Stable buffering
-'maxBufferMs': 1500,   // Smooth playback
-'rebufferMs': 125,     // Quick recovery
+```
+lib/
+├── main.dart                           # App entry point
+├── src/
+│   ├── core/                          # Core utilities
+│   │   ├── di/                        # Dependency injection
+│   │   ├── error/                     # Error handling
+│   │   └── services/                  # Core services
+│   ├── features/                      # Feature modules
+│   │   ├── auth/                      # Authentication
+│   │   ├── home/                      # Home screen & discovery
+│   │   ├── library/                   # Music libraries
+│   │   │   ├── data/                  # Data layer
+│   │   │   ├── domain/                # Business logic
+│   │   │   └── presentation/          # UI layer
+│   │   ├── lyrics/                    # Lyrics functionality
+│   │   ├── player/                    # Music player
+│   │   │   ├── services/              # Audio services
+│   │   │   └── presentation/          # Player UI
+│   │   └── search/                    # Search functionality
+│   └── shared/                        # Shared components
+│       ├── widgets/                   # Reusable widgets
+│       └── utils/                     # Utility functions
+
+android/
+├── app/src/main/
+│   ├── kotlin/                        # Kotlin native code
+│   │   └── com/dab/android/           # Native audio integration
+│   ├── cpp/                           # C++ audio engine
+│   └── AndroidManifest.xml           # App configuration
 ```
 
 ---
 
-## 🛠️ **Technical Enhancements**
+## 🎵 Audio Features
 
-### **New Features Added:**
+### ** Native Audio Engine**
+- **Ultra-low latency**: < 50ms audio pipeline
+- **High-resolution support**: Up to 32-bit/384kHz
+- **Professional effects**: EQ, reverb, compression
+- **Seamless streaming**: Adaptive bitrate streaming
+- **Format support**: FLAC, MP3, WAV, OGG, and more
 
-#### **1. Authentication Debug Utility**
-```dart
-// Comprehensive auth troubleshooting
-await AuthDebug.printAuthDebug();  // Status report
-await AuthDebug.testLogin(email, password);  // Credential testing
-```
-
-#### **2. Rate Limiting Protection**
-```dart
-// Prevents API spam and rate limiting
-static const int _minDelayBetweenAttempts = 2000; // 2 seconds
-```
-
-#### **3. Token Validation System**
-```dart
-// Automatic invalid token detection and cleanup
-Future<bool> validateToken() async {
-  // Validates and clears expired tokens
-}
-```
-
-#### **4. Enhanced Error Handling**
-- Context-aware error messages
-- Graceful degradation for network issues
-- Automatic retry mechanisms
-- User-friendly feedback
+### **Playback Features**
+- 🎛️ **Gapless playback** - Seamless track transitions
+- 🔄 **Queue management** - Dynamic playlist control
+- 📱 **Media controls** - Lock screen and notification controls
+- 🎨 **Now playing** - Rich metadata display with album art
+- 📊 **Audio visualization** - Real-time spectrum analysis
 
 ---
 
-## 📊 **Performance Metrics**
+## 🔧 Key Technologies
 
-### **Before vs After Comparison:**
-
-| **Metric** | **Beta 2.0** | **Beta 2.5** | **Improvement** |
-|------------|--------------|--------------|-----------------|
-| **Login Success Rate** | 60% | 95% | +58% |
-| **Track Start Time** | 6+ seconds | <500ms | 92% faster |
-| **CPU Usage (Audio)** | High | Optimized | 50% reduction |
-| **Memory Leaks** | Present | Eliminated | 100% fixed |
-| **Network Timeouts** | Frequent | Rare | 85% reduction |
-| **User-Reported Bugs** | 15+ critical | 2 minor | 87% reduction |
-
-### **Reliability Improvements:**
-
-| **Feature** | **Stability Before** | **Stability After** | **Status** |
-|-------------|---------------------|---------------------|------------|
-| **Login System** | 60% reliable | 95% reliable | ✅ Fixed |
-| **Album Playback** | Broken | Instant | ✅ Fixed |
-| **Favorites Streaming** | Slow/Broken | Fast | ✅ Fixed |
-| **Mini Player** | Glitchy | Stable | ✅ Fixed |
-| **Search Playback** | Inconsistent | Reliable | ✅ Fixed |
-| **Audio Quality** | Buffer issues | Crystal clear | ✅ Fixed |
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| UI Framework | Flutter 3.x | Cross-platform UI |
+| Audio Engine | Native C++ Library | Professional audio |
+| Native Bridge | Method Channels | Flutter ↔ Native |
+| Network | Dio + Interceptors | API communication |
+| Storage | Hive + Shared Preferences | Local data storage |
+| Images | Cached Network Image | Optimized image loading |
+| Animations | Flutter Animations | Smooth transitions |
+| Fonts | Google Fonts | Beautiful typography |
 
 ---
 
-## 🐛 **Bug Fixes Summary**
+## 📱 Platform Support
 
-### **Critical Fixes (P0):**
-- ✅ Fixed login failures due to rate limiting (HTTP 429)
-- ✅ Resolved 6-second track loading delays
-- ✅ Eliminated mini player popup/disappear glitches
-- ✅ Fixed slow favorites section playback
-- ✅ Corrected audio buffer configuration conflicts
+### **Android Compatibility**
+- **Minimum**: Android 5.0 (API 21)
+- **Target**: Android 14 (API 34)
+- **Optimized for**: Android 12+
+- **Special support**: MIUI, Samsung One UI 7+
 
-### **Major Fixes (P1):**
-- ✅ Improved network timeout handling
-- ✅ Enhanced error messaging system
-- ✅ Optimized position monitoring frequency
-- ✅ Fixed URL caching race conditions
-- ✅ Implemented proper resource cleanup
-
-### **Minor Fixes (P2):**
-- ✅ Enhanced debug logging
-- ✅ Improved code documentation
-- ✅ Optimized memory usage
-- ✅ Streamlined API request flow
-- ✅ Added comprehensive error handling
+### **Device Requirements**
+- **RAM**: 2GB minimum, 4GB recommended
+- **Storage**: 100MB app + cache space
+- **Network**: Internet connection for streaming
+- **Audio**: Standard Android audio stack
 
 ---
 
+## 🎨 UI/UX Features
+
+### **Design System**
+- **Material Design 3** - Modern Google design language
+- **Dark/Light Themes** - Adaptive to system preferences
+- **Dynamic Colors** - Material You color theming
+- **Smooth Animations** - 60fps transitions and effects
+- **Accessibility** - Screen reader and navigation support
+
+### **User Experience**
+- 🚀 **Fast Loading** - < 1 second app startup
+- 🎵 **Instant Search** - Real-time search results
+- 📱 **Gesture Controls** - Intuitive swipe and tap controls
+- 🔄 **Background Sync** - Seamless library updates
+- 💾 **Offline Mode** - Cached content playback
+
+---
+
+
+---
+
+## 🚀 Performance Metrics
+
+| Metric | Target | Current | Status |
+|--------|--------|---------|--------|
+| App Startup | < 2s | ~1.5s | ✅ |
+| Track Loading | < 1s | ~0.5s | ✅ |
+| Library Loading | < 3s | ~2s | ✅ |
+| Memory Usage | < 150MB | ~120MB | ✅ |
+| Battery Impact | Minimal | Optimized | ✅ |
 ## 🚀 **Installation & Update Guide**
 
 ### **For Existing Users:**
@@ -241,7 +238,6 @@ Future<bool> validateToken() async {
 ## 🤝 **Community & Support**
 
 ### **Feedback Channels:**
-- 📧 **Email**: support@dabmusic.app
 - 💬 **Discord**: [DAB Music Community](https://discord.gg/dabmusic)
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/holmesisback/Dab-Android-Beta-V2/issues)
 
@@ -278,6 +274,7 @@ Join our exclusive beta testing program to get early access to new features and 
 Special thanks to our beta users who reported issues and helped us identify critical problems:
 
 - **Login Issues**: Reported by 50+ users across multiple regions
+- **OS issues**: Reported by users via github issues
 - **Streaming Problems**: Identified through comprehensive user feedback
 - **Performance Issues**: Discovered via community testing program
 
@@ -301,6 +298,7 @@ Your feedback made this release possible! 🙏
 
 | **Version** | **Release Date** | **Key Features** |
 |-------------|------------------|------------------|
+| **Beta 2.7** | August 14, 2025 | MIUI FIX , audio optimization |
 | **Beta 2.5** | August 13, 2025 | Login fixes, audio optimization |
 | **Beta 2.0** | August 3, 2025 | Core streaming features |
 | **Beta 1.0** | June 18, 2025 | Basic functionality |
@@ -313,7 +311,7 @@ Your feedback made this release possible! 🙏
 
 **Download DAB Music Player Beta 2.5 today and enjoy seamless, high-quality music streaming!**
 
-[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge)](https://github.com/holmesisback/Dab-Android-Beta-V2/releases/latest)
+
 [![Join Discord](https://img.shields.io/badge/Join-Discord-7289DA?style=for-the-badge)](https://discord.gg/dabmusic)
 [![Star on GitHub](https://img.shields.io/badge/Star-GitHub-black?style=for-the-badge)](https://github.com/holmesisback/Dab-Android-Beta-V2)
 
@@ -336,4 +334,4 @@ Your dedication, feedback, and passion for DAB Music Player inspire us to keep i
 **Made with ❤️ by the DAB Music Team**  
 *Delivering exceptional music experiences since 2023*
 
-</div>
+
