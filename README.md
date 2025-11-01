@@ -5,7 +5,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
 [![Audio](https://img.shields.io/badge/Custom-Native_Audio-FF6B6B?style=for-the-badge)]()
-[![GitHub Repo stars](https://www.star-history.com/#holmesisback/Dab-Android-Beta-V2&type=date&legend=top-left)](https://github.com/devesherlock/music_streaming_app/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/devesherlock/music_streaming_app?style=for-the-badge&label=Repo%20Stars)](https://github.com/devesherlock/music_streaming_app/stargazers)
 
 ---
 
@@ -39,7 +39,7 @@ DAB Music Player is a premium Flutter-based music streaming application that del
 
 ## ⭐ Repository Stars
 
-![Star history chart for music_streaming_app](https://starchart.cc/devesherlock/music_streaming_app.svg)
+[![Star History Chart](https://api.star-history.com/svg?repos=holmesisback/Dab-Android-Beta-V2&type=Date)](https://star-history.com/#holmesisback/Dab-Android-Beta-V2&Date)
 
 ---
 
