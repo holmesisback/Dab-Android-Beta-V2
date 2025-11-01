@@ -29,7 +29,7 @@ DAB Music Player is a premium Flutter-based music streaming application that del
 ## 📦 Latest Release - Patch v2.9.0
 
 ### �️ Patch Highlights
-- ✅ **Search Function Update* – Search function updated with New API
+- ✅ **Search Function Update** – Search function updated with New API
 - ✅ **Playback Queue Fixes** – seamless auto-advance across favorites and albums
 - ✅ **Cloudflare Hardening** – resilient streaming with smart header + cookie reuse
 - ✅ **Long Download Reliability** – album queues and hi-res tracks finish without stalling
