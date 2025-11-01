@@ -5,6 +5,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
 [![Audio](https://img.shields.io/badge/Custom-Native_Audio-FF6B6B?style=for-the-badge)]()
+[![GitHub Repo stars](https://img.shields.io/github/stars/devesherlock/music_streaming_app?style=for-the-badge&label=Repo%20Stars)](https://github.com/devesherlock/music_streaming_app/stargazers)
 
 ---
 
@@ -25,31 +26,20 @@ DAB Music Player is a premium Flutter-based music streaming application that del
 
 ---
 
-## 📦 Latest Release - Beta v2.7.0
+## 📦 Latest Release - Patch v2.9.0
 
-## 🐛 Known Issues & Fixes
+### �️ Patch Highlights
+- ✅ **Search Function Update* – Search function updated with New API
+- ✅ **Playback Queue Fixes** – seamless auto-advance across favorites and albums
+- ✅ **Cloudflare Hardening** – resilient streaming with smart header + cookie reuse
+- ✅ **Long Download Reliability** – album queues and hi-res tracks finish without stalling
+- ✅ **Mini Player Stability** – now playing state stays in sync across the app
 
-### **Resolved in v2.7.0**
-- ✅ **MIUI OS Fix** - App crash on MIUI on android 12 fixed
-- ✅ **Samsung One UI Fix** - Background play on One Ui is partitally fixed
-- ✅ **Library track limitation** - Now supports unlimited tracks
-- ✅ **Pagination errors** - Robust loading for large libraries
-- ✅ **Memory optimization** - Better handling of large datasets
-- ✅ **API efficiency** - Reduced redundant network calls
+[📋 Full Release Notes](RELEASE_NOTES_v2.9.0.md) | [📋 Previous Release v2.7.0](RELEASE_NOTES_v2.7.0.md)
 
-### **Current Limitations**
-- 📱 **iOS Support** - Android only (Flutter web in development)
-- 🌐 **Offline Sync** - Limited offline functionality
-- 🎵 **Local Files** - Streaming only (local file support planned)
+## ⭐ Repository Stars
 
-
-### 🚀 **Major Library Enhancement**
-- ✅ **Unlimited Library Tracks** - No more 20-track limitation
-- ✅ **Intelligent Pagination** - Automatic loading of large libraries
-- ✅ **Enhanced Performance** - Optimized for collections of any size
-- ✅ **Improved Reliability** - Better error handling and recovery
-
-[📋 Full Release Notes](https://github.com/holmesisback/Dab-Android-Beta-V2/releases/tag/v2.7) | 
+![Star history chart for music_streaming_app](https://starchart.cc/devesherlock/music_streaming_app.svg)
 
 ---
 
@@ -180,6 +170,18 @@ android/
 
 ---
 
+## 🐛 Known Issues & Fixes
+
+### **Resolved in v2.7.0**
+- ✅ **Library track limitation** - Now supports unlimited tracks
+- ✅ **Pagination errors** - Robust loading for large libraries
+- ✅ **Memory optimization** - Better handling of large datasets
+- ✅ **API efficiency** - Reduced redundant network calls
+
+### **Current Limitations**
+- 📱 **iOS Support** - Android only (Flutter web in development)
+- 🌐 **Offline Sync** - Limited offline functionality
+- 🎵 **Local Files** - Streaming only (local file support planned)
 
 ---
 
@@ -192,146 +194,48 @@ android/
 | Library Loading | < 3s | ~2s | ✅ |
 | Memory Usage | < 150MB | ~120MB | ✅ |
 | Battery Impact | Minimal | Optimized | ✅ |
-## 🚀 **Installation & Update Guide**
-
-### **For Existing Users:**
-1. **Download** the latest Beta 2.7 APK
-2. **Uninstall** the previous version (to clear cache issues)
-3. **Install** the new version
-4. **Login** with your existing credentials
-5. **Enjoy** the improved experience!
-
-### **For New Users:**
-1. **Download** DAB Music Player Beta 2.7
-2. **Create account** or login with existing credentials
-3. **Grant** necessary permissions
-4. **Start streaming** high-quality music!
 
 ---
 
-## ⚠️ **Known Issues & Workarounds**
+## 🤝 Contributing
 
-| **Issue** | **Impact** | **Workaround** | **Fix ETA** |
-|-----------|------------|----------------|-------------|
-| Occasional sync delays | Minor | Wait 10 seconds | Beta 3 |
-| Album art cache | Low | Clear app cache | Beta 3 |
+### **Development Guidelines**
+1. **Code Style**: Follow Dart official guidelines
+2. **Architecture**: Clean Architecture with feature modules
+3. **Testing**: Unit tests for business logic, widget tests for UI
+4. **Documentation**: Comprehensive code documentation
 
----
-
-## 🔮 **What's Next - Beta 3 Preview**
-
-### **Planned Features:**
-- 🎨 **Enhanced UI/UX** - Material Design 3 implementation
-- 🔊 **Advanced Audio Controls** - Equalizer and sound effects
-- 📱 **Offline Mode** - Download and cache for offline listening
-- 🎵 **Smart Playlists** - AI-powered music recommendations
-- 🌐 **Social Features** - Share playlists and collaborate
-
-### **Performance Targets:**
-- ⚡ 30% faster app startup time
-- 🧠 50% reduced memory usage
-- 🔋 25% improved battery efficiency
-- 📶 Better low-bandwidth performance
+### **Pull Request Process**
+1. Fork the repository
+2. Create feature branch (`feature/amazing-feature`)
+3. Make changes with tests
+4. Submit pull request with description
 
 ---
 
-## 🤝 **Community & Support**
+## 📄 License
 
-### **Feedback Channels:**
-- 💬 **Discord**: [DAB Music Community](https://discord.gg/dabmusic)
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/holmesisback/Dab-Android-Beta-V2/issues)
-
-
-### **Beta Testing Program:**
-Join our exclusive beta testing program to get early access to new features and help shape the future of DAB Music Player!
+This project is licensed under the [LICENSE](LICENSE) file in the root directory.
 
 ---
 
-## 📝 **Developer Notes**
+## 📞 Support & Contact
 
-### **Architecture Improvements:**
-- Implemented clean architecture patterns
-- Enhanced error handling strategies
-- Optimized state management
-- Improved code maintainability
+### **Getting Help**
+- 🐛 **Bug Reports**: Create detailed issue reports
+- 💡 **Feature Requests**: Suggest improvements
+- 📧 **Direct Contact**: [support@dabmusic.app](mailto:support@dabmusic.app)
+- 💬 **Community**: Join our Discord server
 
-### **Testing Coverage:**
-- 95% code coverage achieved
-- Comprehensive integration tests
-- Performance benchmarking
-- User acceptance testing
-
-### **Security Enhancements:**
-- Enhanced token validation
-- Secure storage implementation
-- Rate limiting protection
-- Input validation improvements
+### **Links**
+- 🌐 **Website**: [https://dabmusic.app](https://dabmusic.app)
+- 📱 **Play Store**: Coming soon
+- 🎵 **API Docs**: [API Documentation](api-documentation.html)
 
 ---
 
-## 🎉 **Acknowledgments**
+## 🎵 Experience Premium Audio
 
-Special thanks to our beta users who reported issues and helped us identify critical problems:
+**DAB Music Player** - *Where audiophile dreams meet mobile reality*
 
-- **Login Issues**: Reported by 50+ users across multiple regions
-- **OS issues**: Reported by users via github issues
-- **Streaming Problems**: Identified through comprehensive user feedback
-- **Performance Issues**: Discovered via community testing program
-
-Your feedback made this release possible! 🙏
-
----
-
-## 📋 **Technical Specifications**
-
-| **Requirement** | **Specification** |
-|-----------------|-------------------|
-| **Android Version** | 7.0+ (API Level 24+) |
-| **RAM** | 2GB minimum, 4GB recommended |
-| **Storage** | 100MB app size, 1GB for cache |
-| **Network** | 1 Mbps for standard quality, 5 Mbps for Hi-Res |
-| **Permissions** | Storage, Network, Audio |
-
----
-
-## 🏷️ **Version History**
-
-| **Version** | **Release Date** | **Key Features** |
-|-------------|------------------|------------------|
-| **Beta 2.7** | August 14, 2025 | MIUI FIX , audio optimization |
-| **Beta 2.5** | August 13, 2025 | Login fixes, audio optimization |
-| **Beta 2.0** | August 3, 2025 | Core streaming features |
-| **Beta 1.0** | June 18, 2025 | Basic functionality |
-
----
-
-<div align="center">
-
-## 🎵 **Experience Music Like Never Before** 🎵
-
-**Download DAB Music Player Beta 2.7 today and enjoy seamless, high-quality music streaming!**
-
-
-[![Join Discord](https://img.shields.io/badge/Join-Discord-7289DA?style=for-the-badge)](https://discord.gg/dabmusic)
-[![Star on GitHub](https://img.shields.io/badge/Star-GitHub-black?style=for-the-badge)](https://github.com/holmesisback/Dab-Android-Beta-V2)
-
----
-
-## 🙏 **Special Thanks**
-
-We extend our heartfelt gratitude to a few incredible community members on Discord who played a vital role in making this release possible:
-
-- **superadmin0** – Owner of DAB Music and developer OG  
-- **sherlockholmesat221b** – Support for internal testing  
-- **desidamon** – Support during Beta 2.0 testing  
-- **terminator_x.** – Continuous support for future release plans  
-
-Your dedication, feedback, and passion for DAB Music Player inspire us to keep improving every day. ❤️
-
----
-
-
-**Made with ❤️ by the DAB Music Team**  
-*Delivering exceptional music experiences since 2023*
-
-
+*Built with ❤️ for music lovers who accept nothing less than perfection.*
