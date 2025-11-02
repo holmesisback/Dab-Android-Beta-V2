@@ -5,7 +5,6 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
 [![Audio](https://img.shields.io/badge/Custom-Native_Audio-FF6B6B?style=for-the-badge)]()
-[![GitHub Repo stars](https://img.shields.io/github/stars/devesherlock/music_streaming_app?style=for-the-badge&label=Repo%20Stars)](https://github.com/devesherlock/music_streaming_app/stargazers)
 
 ---
 
