@@ -1,24 +1,32 @@
-This is free and unencumbered software released into the public domain.
+All rights reserved.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+This project is NOT open source.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+Any source code that is publicly visible is provided strictly for
+reference, educational, and review purposes only.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+PERMISSIONS
+- You are permitted to download and use the official compiled release files
+  (binaries) for personal, non-commercial use only.
 
-For more information, please refer to <https://unlicense.org>
+RESTRICTIONS
+- Commercial use of this software or any part of it is strictly prohibited.
+- Redistribution of binaries, modified or unmodified, is not allowed.
+- Redistribution of source code, in whole or in part, is not allowed.
+- Modification, reverse engineering, decompilation, or creation of derivative
+  works based on the source code or binaries is prohibited.
+- The source code may not be reused in other projects, whether open or closed source.
+
+SOURCE AVAILABILITY
+- Portions of the source code may be publicly visible.
+- Visibility of source code does NOT grant permission to use, copy, modify,
+  or redistribute it.
+
+OWNERSHIP
+- All intellectual property rights remain with their respective owners.
+
+EXCEPTIONS
+- Any usage outside the permissions stated above requires explicit authorization
+  from the rights holder(s).
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
