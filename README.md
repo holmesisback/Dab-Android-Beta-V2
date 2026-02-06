@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 DAB Android
+# DAB Android
 
 ### Professional High-Fidelity Music Streaming for Android
 
@@ -20,7 +20,7 @@
 
 ## 🎯 Overview
 
-DAB Music Player is a premium Flutter-based music streaming application engineered for Android devices, delivering studio-quality audio through our proprietary native audio engine. Combining professional audio processing with a sophisticated glassmorphic dark theme, DAB offers an unparalleled listening experience for music enthusiasts who refuse to compromise on quality.
+DAB Android  is a premium Flutter-based music streaming application engineered for Android devices, delivering studio-quality audio through our proprietary native audio engine. Combining professional audio processing with a sophisticated glassmorphic dark theme, DAB offers an unparalleled listening experience for music enthusiasts who refuse to compromise on quality.
 
 
 
@@ -45,7 +45,6 @@ DAB Music Player is a premium Flutter-based music streaming application engineer
 
 #### 🔍 **Advanced Search & Discovery**
 - **Intelligent Search** - Real-time search across artists, albums, and tracks
-- **Cloudflare Bypass** - Custom headers for reliable API connectivity
 - **Rate Limit Management** - Smart retry logic with exponential backoff (30 req/min)
 - **Rectangular Category Tabs** - Glassmorphic tab design with smooth transitions
 - **Auto-Suggestions** - Contextual search recommendations
@@ -95,10 +94,8 @@ DAB Music Player is a premium Flutter-based music streaming application engineer
 - ⚠️ **Graceful Degradation** - App continues with reduced functionality on errors
 
 ### **Search Optimization**
-- 🔍 **Real-time Filtering** - Instant results as you type
 - 🎯 **Debounced Requests** - 300ms delay to reduce API calls
 - 📋 **Category Separation** - Organized results (Top, Artists, Albums, Tracks)
-- 🌐 **Cloudflare Bypass** - Custom User-Agent for reliable connectivity
 - ⏱️ **Request Throttling** - Intelligent rate limit management (30/min)
 
 ## 🔧 Technology Stack
