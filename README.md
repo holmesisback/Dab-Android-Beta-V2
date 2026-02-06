@@ -153,7 +153,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 🌐 [Website](https://dabmusic.xyz)  💬 [Discord](https://discord.gg/gnhABwsHrJ) 
 
-**Version 3.0.0** | **Android 5.0+** | **Last Updated: February 2026**
+**Version 3.0.0** | **Android 9.0+** | **Last Updated: February 2026**
 
 
 <sub>© 2026 DAB Music Player. All rights reserved.</sub>  
