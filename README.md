@@ -133,8 +133,6 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 ### **Project Links**
 - 🌐 **Official Website**: [https://dabmusic.xyz](https://dabmusic.xyz)
 - 📱 **API Endpoint**: [https://dab.yeet.su/api](https://dab.yeet.su/api)
-- 📖 **Documentation**: [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
-
 ---
 
 <div align="center">
