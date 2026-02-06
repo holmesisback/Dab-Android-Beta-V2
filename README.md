@@ -5,7 +5,7 @@
 ### Professional High-Fidelity Music Streaming for Android
 
 
-![Platform](https://img.shields.io/badge/Platform-Android%205.0%2B-green?style=for-the-badge&logo=android)
+![Platform](https://img.shields.io/badge/Platform-Android%209.0%2B-green?style=for-the-badge&logo=android)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
 ![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
 
@@ -31,7 +31,6 @@ DAB Android  is a premium Flutter-based music streaming application engineered f
 - **Native Audio Engine** - Professional-grade audio library for pristine sound quality
 - **High-Resolution Audio** - Support for FLAC, MP3, WAV, OGG and more formats
 - **Ultra-Low Latency** - Optimized audio pipeline for real-time responsiveness
-- **Professional DSP** - Built-in EQ, reverb, compression, and audio effects
 - **Gapless Playback** - Seamless transitions between tracks
 - **Secure Streaming** - Encrypted HTTPS audio delivery
 
