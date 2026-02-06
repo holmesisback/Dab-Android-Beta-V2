@@ -1,240 +1,168 @@
-# DAB Music Player 🎵
+<div align="center">
 
-**High-Quality Music Streaming with Custom Native Audio Engine**
+# 🎵 DAB Android
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://android.com)
-[![Audio](https://img.shields.io/badge/Custom-Native_Audio-FF6B6B?style=for-the-badge)]()
+### Professional High-Fidelity Music Streaming for Android
+
+
+![Platform](https://img.shields.io/badge/Platform-Android%205.0%2B-green?style=for-the-badge&logo=android)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
+![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
+
+**Audiophile-grade music player powered by native audio engine**  
+*Stunning design • Studio-quality sound • Professional features*
+
+[🌐 Website](https://dabmusic.xyz) • [📱 Download](github.com/holmesisback/Dab-Android-Beta-V2/releases/latest) • [☕ Support](https://ko-fi.com/devsherlock)
+
+</div>
 
 ---
 
 ## 🎯 Overview
 
-DAB Music Player is a premium Flutter-based music streaming application that delivers uncompromising audio quality through our custom native audio engine. Built for audiophiles who demand the best listening experience on Android devices.
-
-### ✨ Key Features
-
-- 🎵 **Professional Audio Quality** - Custom native audio engine for superior sound
-- 📱 **Native Android Integration** - Seamless device integration
-- 🎨 **Modern UI/UX** - Beautiful, intuitive interface
-- 📚 **Unlimited Libraries** - Organize your music without limits
-- 🔍 **Advanced Search** - Find music across your entire collection
-- 🎤 **Lyrics Support** - Synced and non-synced lyrics display
-- 🔄 **Background Playback** - Continuous music even when phone is off
-- 🎛️ **Audio Controls** - Professional-grade playback controls
-
----
-
-## 📦 Latest Release - Patch v2.9.0
-
-### �️ Patch Highlights
-- ✅ **Search Function Update** – Search function updated with New API
-- ✅ **Playback Queue Fixes** – seamless auto-advance across favorites and albums
-- ✅ **Cloudflare Hardening** – resilient streaming with smart header + cookie reuse
-- ✅ **Long Download Reliability** – album queues and hi-res tracks finish without stalling
-- ✅ **Mini Player Stability** – now playing state stays in sync across the app
-
- | [📋 Previous Release v2.7.0](RELEASE_NOTES_v2.7.0.md)
-
-## ⭐ Repository Stars
-
-[![Star History Chart](https://api.star-history.com/svg?repos=holmesisback/Dab-Android-Beta-V2&type=Date)](https://star-history.com/#holmesisback/Dab-Android-Beta-V2&Date)
-
----
-
-## 🏗️ Architecture
-
-### **Frontend**
-- **Framework**: Flutter 3.x
-- **Language**: Dart
-- **UI Components**: Material Design 3
-- **State Management**: Provider + ValueNotifier
-- **Dependency Injection**: GetIt + Injectable
-
-### **Backend Integration**
-- **API**: RESTful API (https://dab.yeet.su/api)
-- **Authentication**: JWT tokens with secure storage
-- **Network**: Dio with custom interceptors
-- **Caching**: Smart cache management for optimal performance
-
-### **Audio Engine**
-- **Core**: Custom Native Audio Engine (Native C++)
-- **Platform Bridge**: Method Channels (Kotlin ↔ Dart)
-- **Features**: High-res audio, low latency, professional effects
-- **Formats**: FLAC, MP3, WAV, and more
-
----
+DAB Music Player is a premium Flutter-based music streaming application engineered for Android devices, delivering studio-quality audio through our proprietary native audio engine. Combining professional audio processing with a sophisticated glassmorphic dark theme, DAB offers an unparalleled listening experience for music enthusiasts who refuse to compromise on quality.
 
 
-## 📁 Project Structure
 
-```
-lib/
-├── main.dart                           # App entry point
-├── src/
-│   ├── core/                          # Core utilities
-│   │   ├── di/                        # Dependency injection
-│   │   ├── error/                     # Error handling
-│   │   └── services/                  # Core services
-│   ├── features/                      # Feature modules
-│   │   ├── auth/                      # Authentication
-│   │   ├── home/                      # Home screen & discovery
-│   │   ├── library/                   # Music libraries
-│   │   │   ├── data/                  # Data layer
-│   │   │   ├── domain/                # Business logic
-│   │   │   └── presentation/          # UI layer
-│   │   ├── lyrics/                    # Lyrics functionality
-│   │   ├── player/                    # Music player
-│   │   │   ├── services/              # Audio services
-│   │   │   └── presentation/          # Player UI
-│   │   └── search/                    # Search functionality
-│   └── shared/                        # Shared components
-│       ├── widgets/                   # Reusable widgets
-│       └── utils/                     # Utility functions
 
-android/
-├── app/src/main/
-│   ├── kotlin/                        # Kotlin native code
-│   │   └── com/dab/android/           # Native audio integration
-│   ├── cpp/                           # C++ audio engine
-│   └── AndroidManifest.xml           # App configuration
-```
+### ✨ Core Features
+
+#### 🎵 **Audio Excellence**
+- **Native Audio Engine** - Professional-grade audio library for pristine sound quality
+- **High-Resolution Audio** - Support for FLAC, MP3, WAV, OGG and more formats
+- **Ultra-Low Latency** - Optimized audio pipeline for real-time responsiveness
+- **Professional DSP** - Built-in EQ, reverb, compression, and audio effects
+- **Gapless Playback** - Seamless transitions between tracks
+- **Secure Streaming** - Encrypted HTTPS audio delivery
+
+#### 🎨 **Premium UI/UX**
+- **Glassmorphic Design** - Sophisticated frosted glass effects with gradient backgrounds
+- **OLED-Optimized Dark Theme** - True black (#000000) for battery efficiency and visual comfort
+- **Smooth Animations** - 60fps staggered entrance effects and bouncing scroll physics
+- **Professional Typography** - Lufga font family with optimized letter spacing
+- **Dual Shadow System** - Depth-enhancing black shadows with white highlights
+- **Clean Design Language** - Minimalist black/white palette with strategic transparency
+
+#### 🔍 **Advanced Search & Discovery**
+- **Intelligent Search** - Real-time search across artists, albums, and tracks
+- **Cloudflare Bypass** - Custom headers for reliable API connectivity
+- **Rate Limit Management** - Smart retry logic with exponential backoff (30 req/min)
+- **Rectangular Category Tabs** - Glassmorphic tab design with smooth transitions
+- **Auto-Suggestions** - Contextual search recommendations
+- **Error Recovery** - "Try Again" UI for network errors and rate limiting
+
+#### 📚 **Content Management**
+- **Album Detail View** - Comprehensive track listings with audio quality badges (MAX)
+- **Artist Profiles** - Complete discography with animated album cards
+- **Track Options** - Advanced playback, queue, and download management
+- **Related Content** - "More Albums by Artist" with intelligent recommendations
+- **Cover Art Validation** - URL verification with graceful fallback handling
+- **Multi-Field Parsing** - Robust API response handling for varying data structures
+
+#### 📥 **Download & Offline**
+- **Album Downloads** - Complete album download with glassmorphic bottom sheets
+- **Quality Selection** - Choose audio format and bitrate before download
+- **Progress Tracking** - Real-time download status with pause/resume support
+- **Local Storage** - Efficient SQLite-based library management
+- **Cache Management** - Automatic cleanup and optimization
+
+#### 🎛️ **Playback Controls**
+- **Queue Management** - Dynamic playlist editing and reordering
+- **Repeat & Shuffle** - Advanced playback modes with state persistence
+- **Media Controls** - Lock screen, notification, and Bluetooth integration
+- **Background Playback** - Continuous audio even when screen is off
+- **Audio Session** - Proper Android audio focus handling
 
 ---
 
-## 🎵 Audio Features
 
-### ** Native Audio Engine**
-- **Ultra-low latency**: < 50ms audio pipeline
-- **High-resolution support**: Up to 32-bit/384kHz
-- **Professional effects**: EQ, reverb, compression
-- **Seamless streaming**: Adaptive bitrate streaming
-- **Format support**: FLAC, MP3, WAV, OGG, and more
+## 🚀 Key Technical Highlights
 
-### **Playback Features**
-- 🎛️ **Gapless playback** - Seamless track transitions
-- 🔄 **Queue management** - Dynamic playlist control
-- 📱 **Media controls** - Lock screen and notification controls
-- 🎨 **Now playing** - Rich metadata display with album art
-- 📊 **Audio visualization** - Real-time spectrum analysis
+### **Performance Optimizations**
+- 🔥 **Native Audio** - Zero-overhead C++ audio processing
+- ⚡ **Lazy Loading** - On-demand image and data loading
+- 🧹 **Memory Management** - Aggressive disposal of unused resources
+- 📦 **APK Size** - Code splitting and tree shaking (< 50MB)
+- 🔄 **Efficient Scrolling** - ListView.builder with const constructors
+- 💾 **Smart Caching** - LRU cache for images and API responses
 
----
+### **Error Handling & Resilience**
+- 🛡️ **Mounted Checks** - Prevent setState-after-dispose errors
+- 🔄 **Retry Logic** - Exponential backoff for failed API requests
+- 🚨 **Rate Limit Detection** - Custom UI for 429 errors with "Try Again"
+- 🖼️ **Image Validation** - URL verification with fallback to placeholder
+- 📊 **Debug Logging** - Comprehensive logging for troubleshooting
+- ⚠️ **Graceful Degradation** - App continues with reduced functionality on errors
 
-## 🔧 Key Technologies
+### **Search Optimization**
+- 🔍 **Real-time Filtering** - Instant results as you type
+- 🎯 **Debounced Requests** - 300ms delay to reduce API calls
+- 📋 **Category Separation** - Organized results (Top, Artists, Albums, Tracks)
+- 🌐 **Cloudflare Bypass** - Custom User-Agent for reliable connectivity
+- ⏱️ **Request Throttling** - Intelligent rate limit management (30/min)
+
+## 🔧 Technology Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| UI Framework | Flutter 3.x | Cross-platform UI |
-| Audio Engine | Native C++ Library | Professional audio |
-| Native Bridge | Method Channels | Flutter ↔ Native |
-| Network | Dio + Interceptors | API communication |
-| Storage | Hive + Shared Preferences | Local data storage |
-| Images | Cached Network Image | Optimized image loading |
-| Animations | Flutter Animations | Smooth transitions |
-| Fonts | Google Fonts | Beautiful typography |
+| **Framework** | Flutter 3.x | Cross-platform Android UI |
+| **Language** | Dart | Application logic |
+| **Native Audio** | Proprietary Engine | Professional audio processing |
+| **Native Bridge** | Kotlin Method Channels | Flutter ↔ Native communication |
+| **HTTP Client** | Dio + Interceptors | API requests with retry logic |
+| **State Management** | Provider, Bloc, Riverpod | Reactive UI updates |
+| **Dependency Injection** | GetIt + Injectable | Service locator pattern |
+| **Database** | SQLite (sqflite) | Local music library |
+| **Secure Storage** | flutter_secure_storage | Encrypted token storage |
+| **Cache** | Hive + SharedPreferences | Settings and metadata |
+| **Images** | CachedNetworkImage | Optimized artwork loading |
+| **Animations** | Flutter Animations | Smooth 60fps transitions |
+| **Typography** | Lufga Font Family | Professional text rendering |
+| **Blur Effects** | BackdropFilter + ImageFilter | Glassmorphic UI elements |
+| **JSON Parsing** | json_serializable | Model code generation |
+| **Testing** | flutter_test + mockito | Unit and widget tests |
 
 ---
 
-## 📱 Platform Support
 
-### **Android Compatibility**
-- **Minimum**: Android 5.0 (API 21)
-- **Target**: Android 14 (API 34)
-- **Optimized for**: Android 12+
-- **Special support**: MIUI, Samsung One UI 7+
 
-### **Device Requirements**
-- **RAM**: 2GB minimum, 4GB recommended
-- **Storage**: 100MB app + cache space
-- **Network**: Internet connection for streaming
-- **Audio**: Standard Android audio stack
+## 📄 License & Credits
 
----
+### **License**
+This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
-## 🎨 UI/UX Features
 
-### **Design System**
-- **Material Design 3** - Modern Google design language
-- **Dark/Light Themes** - Adaptive to system preferences
-- **Dynamic Colors** - Material You color theming
-- **Smooth Animations** - 60fps transitions and effects
-- **Accessibility** - Screen reader and navigation support
 
-### **User Experience**
-- 🚀 **Fast Loading** - < 1 second app startup
-- 🎵 **Instant Search** - Real-time search results
-- 📱 **Gesture Controls** - Intuitive swipe and tap controls
-- 🔄 **Background Sync** - Seamless library updates
-- 💾 **Offline Mode** - Cached content playback
+
+### **Project Links**
+- 🌐 **Official Website**: [https://dabmusic.xyz](https://dabmusic.xyz)
+- 📱 **API Endpoint**: [https://dab.yeet.su/api](https://dab.yeet.su/api)
+- 📖 **Documentation**: [API_DOCUMENTATION.md](API_DOCUMENTATION.md)
 
 ---
 
-## 🐛 Known Issues & Fixes
+<div align="center">
 
-### **Resolved in v2.7.0**
-- ✅ **Library track limitation** - Now supports unlimited tracks
-- ✅ **Pagination errors** - Robust loading for large libraries
-- ✅ **Memory optimization** - Better handling of large datasets
-- ✅ **API efficiency** - Reduced redundant network calls
 
-### **Current Limitations**
-- 📱 **iOS Support** - Android only (Flutter web in development)
-- 🌐 **Offline Sync** - Limited offline functionality
-- 🎵 **Local Files** - Streaming only (local file support planned)
+
+### Support the Project
+
+[![Ko-fi](https://files.catbox.moe/apck19.jpg)](https://ko-fi.com/devsherlock)
+
+*Every contribution helps us continue developing premium features*
 
 ---
 
-## 🚀 Performance Metrics
+### Connect With Us
 
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| App Startup | < 2s | ~1.5s | ✅ |
-| Track Loading | < 1s | ~0.5s | ✅ |
-| Library Loading | < 3s | ~2s | ✅ |
-| Memory Usage | < 150MB | ~120MB | ✅ |
-| Battery Impact | Minimal | Optimized | ✅ |
+🌐 [Website](https://dabmusic.xyz)  💬 [Discord](https://discord.gg/gnhABwsHrJ) 
 
----
+**Version 3.0.0** | **Android 5.0+** | **Last Updated: February 2026**
 
-## 🤝 Contributing
 
-### **Development Guidelines**
-1. **Code Style**: Follow Dart official guidelines
-2. **Architecture**: Clean Architecture with feature modules
-3. **Testing**: Unit tests for business logic, widget tests for UI
-4. **Documentation**: Comprehensive code documentation
+<sub>© 2026 DAB Music Player. All rights reserved.</sub>  
+<sub>Made with ❤️ by joe for passionate listeners</sub>
 
-### **Pull Request Process**
-1. Fork the repository
-2. Create feature branch (`feature/amazing-feature`)
-3. Make changes with tests
-4. Submit pull request with description
 
----
 
-## 📄 License
-
-This project is licensed under the [LICENSE](LICENSE) file in the root directory.
-
----
-
-## 📞 Support & Contact
-
-### **Getting Help**
-- 🐛 **Bug Reports**: Create detailed issue reports
-- 💡 **Feature Requests**: Suggest improvements
-- 📧 **Direct Contact**: [support@dabmusic.app](mailto:support@dabmusic.app)
-- 💬 **Community**: Join our Discord server
-
-### **Links**
-- 🌐 **Website**: [https://dabmusic.app](https://dabmusic.app)
-- 📱 **Play Store**: Coming soon
-- 🎵 **API Docs**: [API Documentation](api-documentation.html)
-
----
-
-## 🎵 Experience Premium Audio
-
-**DAB Music Player** - *Where audiophile dreams meet mobile reality*
-
-*Built with ❤️ for music lovers who accept nothing less than perfection.*
+</div>
