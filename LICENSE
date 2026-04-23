@@ -1,32 +1,81 @@
-All rights reserved.
+# License
 
-This project is NOT open source.
+**All Rights Reserved**
 
-Any source code that is publicly visible is provided strictly for
-reference, educational, and review purposes only.
+This project is proprietary software. It is **NOT open source**.
 
-PERMISSIONS
-- You are permitted to download and use the official compiled release files
-  (binaries) for personal, non-commercial use only.
+Any source code that is publicly visible is provided strictly for **reference, educational, and review purposes only**. Visibility of the code does **NOT** grant any rights to use, copy, modify, or distribute it.
 
-RESTRICTIONS
-- Commercial use of this software or any part of it is strictly prohibited.
-- Redistribution of binaries, modified or unmodified, is not allowed.
-- Redistribution of source code, in whole or in part, is not allowed.
-- Modification, reverse engineering, decompilation, or creation of derivative
-  works based on the source code or binaries is prohibited.
-- The source code may not be reused in other projects, whether open or closed source.
+---
 
-SOURCE AVAILABILITY
+## ⚠️ Disclaimer
+
+This software is an independent project developed for educational and technical demonstration purposes.
+
+- This application **does NOT host, store, or distribute any media content**.
+- All content accessed through the application is obtained from **third-party APIs and external services**.
+- The developer acts solely as a **client interface provider** and does not control or manage any external content sources.
+
+The developer:
+
+- ❌ Does **not own or operate** any third-party servers or APIs  
+- ❌ Does **not upload or distribute copyrighted material**  
+- ❌ Is **not responsible** for the legality, availability, or accuracy of external content  
+
+By using this software, you agree that:
+
+- ✅ You use it **at your own risk and responsibility**  
+- ✅ You are responsible for complying with all **applicable laws and regulations**  
+- ✅ Any misuse, copyright infringement, or illegal activity is **solely the responsibility of the end user**
+
+---
+
+## Permissions
+
+- You are permitted to **download and use official compiled release files (binaries)** for **personal, non-commercial use only**.
+
+---
+
+## Restrictions
+
+You are **NOT allowed** to:
+
+- Use this software or any part of it for **commercial purposes**
+- Redistribute binaries (modified or unmodified)
+- Redistribute source code, in whole or in part
+- Modify, reverse engineer, decompile, or create derivative works
+- Reuse any part of the source code in other projects (open or closed source)
+
+---
+
+## Source Availability
+
 - Portions of the source code may be publicly visible.
-- Visibility of source code does NOT grant permission to use, copy, modify,
-  or redistribute it.
+- This visibility does **NOT** grant permission to use, copy, modify, or redistribute the code.
 
-OWNERSHIP
-- All intellectual property rights remain with their respective owners.
+---
 
-EXCEPTIONS
-- Any usage outside the permissions stated above requires explicit authorization
-  from the rights holder(s).
+## Ownership
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+- All intellectual property rights belong to their respective owner(s).
+- No rights are transferred or granted under this license.
+
+---
+
+## Exceptions
+
+- Any use outside the permissions explicitly stated above requires **prior written authorization** from the rights holder(s).
+
+---
+
+## Warranty
+
+THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+- MERCHANTABILITY  
+- FITNESS FOR A PARTICULAR PURPOSE  
+- NON-INFRINGEMENT  
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+---
