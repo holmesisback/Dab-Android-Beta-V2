@@ -1,81 +1,57 @@
-# License
+LICENSE
 
-**All Rights Reserved**
+All Rights Reserved
 
-This project is proprietary software. It is **NOT open source**.
+This project is proprietary software. It is NOT open source.
 
-Any source code that is publicly visible is provided strictly for **reference, educational, and review purposes only**. Visibility of the code does **NOT** grant any rights to use, copy, modify, or distribute it.
+Any source code that is publicly visible is provided strictly for reference, educational, and review purposes only. Visibility of the code does NOT grant any rights to use, copy, modify, or distribute it.
 
----
-
-## ⚠️ Disclaimer
+DISCLAIMER
 
 This software is an independent project developed for educational and technical demonstration purposes.
 
-- This application **does NOT host, store, or distribute any media content**.
-- All content accessed through the application is obtained from **third-party APIs and external services**.
-- The developer acts solely as a **client interface provider** and does not control or manage any external content sources.
+This application does NOT host, store, or distribute any media content. All content accessed through the application is obtained from third-party APIs and external services. The software acts solely as a client interface.
 
 The developer:
 
-- ❌ Does **not own or operate** any third-party servers or APIs  
-- ❌ Does **not upload or distribute copyrighted material**  
-- ❌ Is **not responsible** for the legality, availability, or accuracy of external content  
+Does NOT own or operate any third-party servers or APIs
+Does NOT upload or distribute copyrighted material
+Is NOT responsible for the legality, accuracy, or availability of any external content
 
 By using this software, you agree that:
 
-- ✅ You use it **at your own risk and responsibility**  
-- ✅ You are responsible for complying with all **applicable laws and regulations**  
-- ✅ Any misuse, copyright infringement, or illegal activity is **solely the responsibility of the end user**
+You use it at your own risk and responsibility
+You are responsible for complying with all applicable laws and regulations
+Any misuse, copyright violation, or illegal activity is solely the responsibility of the end user
 
----
+PERMISSIONS
 
-## Permissions
+You are permitted to download and use the official compiled release files (binaries) for personal, non-commercial use only.
 
-- You are permitted to **download and use official compiled release files (binaries)** for **personal, non-commercial use only**.
+RESTRICTIONS
 
----
+You are NOT allowed to:
 
-## Restrictions
+Use this software or any part of it for commercial purposes
+Redistribute binaries (modified or unmodified)
+Redistribute source code, in whole or in part
+Modify, reverse engineer, decompile, or create derivative works
+Reuse any part of the source code in other projects, whether open or closed source
 
-You are **NOT allowed** to:
+SOURCE AVAILABILITY
 
-- Use this software or any part of it for **commercial purposes**
-- Redistribute binaries (modified or unmodified)
-- Redistribute source code, in whole or in part
-- Modify, reverse engineer, decompile, or create derivative works
-- Reuse any part of the source code in other projects (open or closed source)
+Portions of the source code may be publicly visible. This does NOT grant permission to use, copy, modify, or redistribute it.
 
----
+OWNERSHIP
 
-## Source Availability
+All intellectual property rights remain with their respective owner(s). No rights are granted or transferred under this license.
 
-- Portions of the source code may be publicly visible.
-- This visibility does **NOT** grant permission to use, copy, modify, or redistribute the code.
+EXCEPTIONS
 
----
+Any use outside the permissions stated above requires explicit prior written authorization from the rights holder(s).
 
-## Ownership
+WARRANTY
 
-- All intellectual property rights belong to their respective owner(s).
-- No rights are transferred or granted under this license.
-
----
-
-## Exceptions
-
-- Any use outside the permissions explicitly stated above requires **prior written authorization** from the rights holder(s).
-
----
-
-## Warranty
-
-THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
-
-- MERCHANTABILITY  
-- FITNESS FOR A PARTICULAR PURPOSE  
-- NON-INFRINGEMENT  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
-
----
