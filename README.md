@@ -4,7 +4,6 @@
 
 ### Professional High-Fidelity Music Streaming for Android
 
-
 ![Platform](https://img.shields.io/badge/Platform-Android%209.0%2B-green?style=for-the-badge&logo=android)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
 ![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
@@ -18,12 +17,37 @@
 
 ---
 
+## ⚠️ Disclaimer
+
+> **Legal Notice & Responsibility**
+>
+> DAB Android is an independent application developed for educational, personal, and research purposes only. This project is intended to demonstrate technical skills in Flutter, audio processing, and API integration.
+>
+> This application **does NOT host, store, upload, or distribute any media content**. All content displayed or streamed through the app is obtained from **third-party APIs and external services**.
+>
+> DAB Android acts strictly as a **client interface** that connects users to publicly available or externally provided resources.
+>
+> The developer:
+>
+> - ❌ Does **not own, control, or operate** any third-party servers or APIs  
+> - ❌ Does **not provide or upload any copyrighted material**  
+> - ❌ Is **not responsible** for the legality, accuracy, or availability of third-party content  
+>
+> By using this application, you acknowledge and agree that:
+>
+> - ✅ You are using this app **at your own risk and responsibility**  
+> - ✅ You are responsible for ensuring that your usage complies with **local laws and regulations**  
+> - ✅ Any misuse, copyright infringement, or illegal activity is **solely the responsibility of the end user**  
+>
+> If you are a content owner and believe your rights are being violated, please contact the respective third-party service providers directly.
+
+---
+
 ## 🎯 Overview
 
-DAB Android  is a premium Flutter-based music streaming application engineered for Android devices, delivering studio-quality audio through our proprietary native audio engine. Combining professional audio processing with a sophisticated glassmorphic dark theme, DAB offers an unparalleled listening experience for music enthusiasts who refuse to compromise on quality.
+DAB Android is a premium Flutter-based music streaming application engineered for Android devices, delivering studio-quality audio through our proprietary native audio engine. Combining professional audio processing with a sophisticated glassmorphic dark theme, DAB offers an unparalleled listening experience for music enthusiasts who refuse to compromise on quality.
 
-
-
+---
 
 ### ✨ Core Features
 
@@ -73,7 +97,6 @@ DAB Android  is a premium Flutter-based music streaming application engineered f
 
 ---
 
-
 ## 🚀 Key Technical Highlights
 
 ### **Performance Optimizations**
@@ -96,6 +119,8 @@ DAB Android  is a premium Flutter-based music streaming application engineered f
 - 🎯 **Debounced Requests** - 300ms delay to reduce API calls
 - 📋 **Category Separation** - Organized results (Top, Artists, Albums, Tracks)
 - ⏱️ **Request Throttling** - Intelligent rate limit management (30/min)
+
+---
 
 ## 🔧 Technology Stack
 
@@ -120,24 +145,18 @@ DAB Android  is a premium Flutter-based music streaming application engineered f
 
 ---
 
-
-
 ## 📄 License & Credits
 
 ### **License**
 This project is licensed under the terms specified in the [LICENSE](LICENSE) file.
 
-
-
-
 ### **Project Links**
-- 🌐 **Official Website**: [https://dabmusic.xyz](https://dabmusic.xyz)
-- 📱 **API Endpoint**: [https://dab.yeet.su/api](https://dab.yeet.su/api)
+- 🌐 **Official Website**: https://dabmusic.xyz
+- 📱 **API Endpoint**: https://dab.yeet.su/api
+
 ---
 
 <div align="center">
-
-
 
 ### Support the Project
 
@@ -153,10 +172,7 @@ This project is licensed under the terms specified in the [LICENSE](LICENSE) fil
 
 **Version 3.0.0** | **Android 9.0+** | **Last Updated: February 2026**
 
-
 <sub>© 2026 DAB Music Player. All rights reserved.</sub>  
 <sub>Made with ❤️ by joe for passionate listeners</sub>
-
-
 
 </div>
